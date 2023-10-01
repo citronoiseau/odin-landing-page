@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+.hero {
+  background-color: #1f2937;
+}
+.navbar {
+  margin: 0 200px 0 200px;
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
+.logo,
+.links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.logo {
+  padding: 10px;
+  size: 24px;
+  color: #f9faf8;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.links {
+  color: #e5e7eb;
+  font-family: "Roboto", sans-serif;
+  size: 18px;
+  font-weight: 200;
+}
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
