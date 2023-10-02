@@ -1,6 +1,19 @@
 body {
   margin: 0;
 }
+p,
+h1,
+h2,
+h3,
+button,
+.logo,
+.quote-author,
+.quote,
+.info-action,
+.action-button,
+.links {
+  font-family: "Roboto", sans-serif;
+}
 .hero {
   background-color: #1f2937;
 }
@@ -20,19 +33,134 @@ ul {
   gap: 16px;
 }
 .logo {
-  padding: 10px;
   size: 24px;
   color: #f9faf8;
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
-.links {
+.links,
+.hero-description p {
   color: #e5e7eb;
-  font-family: "Roboto", sans-serif;
   size: 18px;
   font-weight: 200;
+}
+.hero-info {
+  padding-bottom: 50px;
+  display: flex;
+  margin: 40px 200px 40px 200px;
+  gap: 50px;
+}
+.hero-description {
+  display: flex;
+  flex-direction: column;
 }
 a {
   text-decoration: none;
   color: #e5e7eb;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+  margin: 0;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.hero-description button {
+  width: 100px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+.photo-description {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px 0;
+  margin-bottom: 60px;
+}
+.photo-description img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  border: #3882f6 4px solid;
+}
+.photo-description .content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.photo-description .content p {
+  font-size: 15px;
+  color: #1f2937;
+}
+.quote-container {
+  background-color: #e5e7eb;
+}
+.quote-author {
+  text-align: end;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: normal;
+}
+.quote {
+  margin: 40px 200px 40px 200px;
+  padding: 60px 80px;
+  justify-content: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300px;
+  font-style: italic;
+}
+.call-to-action {
+  display: flex;
+  background-color: #3882f6;
+  align-items: center;
+  margin: 40px 200px 80px 200px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+.info-action {
+  padding: 40px 100px 40px 100px;
+  display: flex;
+  flex-direction: column;
+  color: #f9faf8;
+}
+h3 {
+  margin: 0;
+}
+.info-action p {
+  margin: 0;
+  font-weight: 300;
+}
+.button-action {
+  padding: 0 100px;
+}
+.action-button {
+  background-color: #3882f6;
+  border: #f9faf8 2px solid;
+  border-radius: 9px;
+  padding: 5px 25px;
+  color: #f9faf8;
+  font-size: 15px;
+}
+.footer {
+  background-color: #1f2937;
+}
+.footer p {
+  text-align: center;
+  color: #f9faf8;
+  margin: 0;
+  padding: 30px;
 }
